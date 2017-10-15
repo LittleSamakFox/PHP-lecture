@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title> 실행시켰을때 나오는 위에 타이틀 </title>
+	</head>
+	<body bgcolor="#E4F7BA" text="blue">
+		<!-- 주석을 쓰려면 이렇게 쓰면 됩니다 <br> 그리고 <body background="">하면 사진넣어요-->
+		어떻게 나오는지 잘 확인한다.<br>
+		localhost/.html로 확인한다.<br>
+		
+		<p align="center">
+		이 명령어로 문장을 나눕니다.
+		</p>
+		<p align="left">
+		이 문장은 왼쪽이다
+		</p>
+
+		문장뒤에다가 &lt;p&gt 이걸 붙이면 공백이 좀 큽니다 <p>
+		요런식으로요 네<br>
+
+		<nobr>
+			페이지 크기 줄였을시에 자동 줄 바꿈 방지하는 법은 &lt;nobr&gt 이거를 사용한다<br>
+		</nobr>
+
+		수평구분선을 나타내려면 &lt;hr&gt를 사용합니다
+		<hr size="1" width="100%">
+		<hr size="30" width="50%">
+		<hr size="50" width="20%">
+
+		<h1> &lt;h1&gt을 사용했을때 <hr></h1>
+		<h2> &lt;h1&gt을 사용했을때 <hr></h2>
+		<h3> &lt;h1&gt을 사용했을때 <hr></h3>
+		
+		<font size="70" color="Black" face="궁서체">
+		폰트 같은 경우 &lt;font&gt에 size color face 넣고 바꾼다<p>
+
+		적용 범위는 아래부터라고 생각하면 된다.<br>
+		
+		<a href="http://www.naver.com">하이퍼 링크를 넣고 싶다 그러면 &lt;a&gt태그를 사용한다.</a><br>
+		<table border = 1 width = 250>
+			<caption align = "top"><font size="150">제목 적기</font></caption>
+			<tr>
+				<td>여기에 td</td><td>적어서</td><td>짝</td><td>짝</td><td>짝</td><td>짝짝짝짝</td><td>김성태</td>
+			</tr>
+			<tr>
+				<td colspan =2>colspan 하면 가로</td><td>그리고</td><td rowspan =2>rowspan이 세로</td>
+			</tr>
+			<tr>
+				<td>각 칸은 td이고</td><td>각 줄은 tr</td>
+			</tr>
+		</table>
+		<form>
+			텍스트 입력칸<input type="text" name="yourname" value="input type="text" name="word"" size="20">
+			비밀번호 같은경우는 <input type="password" name="yourpassword" value="비밀번호는 input type="password"" size="20">
+		</form>
+		<form>
+			타입을 radio라고 한다<input type="radio" name="sex" >
+			그러면 동그라미 생긴다<input type="radio" name="sex">
+		</form>
+
+		<form>
+	 	  	사각형은 <input type="checkbox" name="favorit"> 
+   			checkbox <input type="checkbox" name="favorit">
+		</form>
+	</body>
+</html>
