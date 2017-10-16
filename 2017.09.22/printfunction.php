@@ -1,5 +1,5 @@
 <?PHP
-function print_fr($arr_var){
+	function print_fr($arr_var){
 		foreach($arr_var as $arr_item){
 			if(is_array($arr_item))
 				print_fr($arr_item);
