@@ -74,5 +74,8 @@
 	//printf function
 	$num=3.141592;
 	printf("num = %d, 2nd pale is real number = %0.2f",$num,$num);
-
+	
+	$data = "September 30 2017";
+    	sscanf($date, "%s %d %d",$month,$day,$year);
+	printf("%dyear %s %dday", $year, $month, $day);
 ?>
