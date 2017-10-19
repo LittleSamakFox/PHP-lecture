@@ -1,0 +1,12 @@
+<?PHP
+	function hanoi($num, $up, $middle, $down){
+		if($num==1)
+			print "move ". $num . "ring ".$up ."to ".$down."<br>";
+		else{
+			hanoi($num-1,$up,$down,$middle);
+			print "move ". $num . "ring ".$up ."to ".$down."<br>";
+			hanoi($num-1,$middle,$up,$down);
+			}
+	}
+	hanoi(3,'a','b','c');
+?>
